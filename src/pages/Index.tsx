@@ -69,20 +69,7 @@ const SERVICES = [
     price: "от 2 200 ₽",
     duration: "90 мин",
   },
-  {
-    icon: "Layers",
-    name: "Педикюр",
-    desc: "Уход за стопами, обработка пяток, покрытие гель-лаком",
-    price: "от 1 800 ₽",
-    duration: "90 мин",
-  },
-  {
-    icon: "Heart",
-    name: "Маникюр + педикюр",
-    desc: "Комплекс: маникюр и педикюр со скидкой",
-    price: "от 2 800 ₽",
-    duration: "150 мин",
-  },
+
 ];
 
 function useInView(threshold = 0.15) {
