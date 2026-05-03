@@ -135,6 +135,14 @@ const Index = () => {
         >
           NAIL <em className="not-italic font-semibold">STUDIO</em>
         </span>
+        <a
+          href="tel:+79643006561"
+          className="hidden md:flex items-center gap-2 text-sm transition-opacity hover:opacity-100"
+          style={{ color: "rgba(245,238,242,0.6)" }}
+        >
+          <Icon name="Phone" size={13} />
+          8 (964) 300-65-61
+        </a>
         <div className="flex gap-6 text-sm font-medium tracking-wider">
           {[
             { id: "home", label: "ГЛАВНАЯ" },
@@ -198,8 +206,6 @@ const Index = () => {
             className="font-cormorant text-6xl md:text-8xl font-light leading-none mb-4"
             style={{ letterSpacing: "-0.02em" }}
           >
-            Анна
-            <br />
             <span
               style={{
                 background: "linear-gradient(135deg, #FF2D78, #FF6B9D, #FFB3CC)",
@@ -207,7 +213,7 @@ const Index = () => {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Соколова
+              Елена
             </span>
           </h1>
           <p
@@ -454,7 +460,7 @@ const Index = () => {
           className="text-xs mt-4 tracking-wider"
           style={{ color: "rgba(245,238,242,0.3)" }}
         >
-          © 2026 Анна Соколова · Мастер маникюра
+          © 2026 Елена · Мастер маникюра · 8 (964) 300-65-61
         </p>
       </footer>
 
