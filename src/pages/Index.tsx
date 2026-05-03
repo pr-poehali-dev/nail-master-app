@@ -223,9 +223,9 @@ const Index = () => {
             Создаю красоту ногтей, которой восхищаются. Более 5 лет опыта, 500+ довольных клиентов.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              onClick={() => scrollTo("services")}
-              className="px-10 py-4 text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:scale-105"
+            <a
+              href="tel:+79643006561"
+              className="px-10 py-4 text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:scale-105 inline-flex items-center gap-2 justify-center"
               style={{
                 background: "linear-gradient(135deg, #FF2D78, #FF6B9D)",
                 color: "#fff",
@@ -233,8 +233,9 @@ const Index = () => {
                 boxShadow: "0 0 30px rgba(255,45,120,0.4)",
               }}
             >
+              <Icon name="Phone" size={14} />
               Записаться
-            </button>
+            </a>
             <button
               onClick={() => scrollTo("gallery")}
               className="px-10 py-4 text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:scale-105"
@@ -364,8 +365,9 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <button
-              className="px-12 py-4 text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:scale-105"
+            <a
+              href="tel:+79643006561"
+              className="px-12 py-4 text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:scale-105 inline-flex items-center gap-2 justify-center"
               style={{
                 background: "linear-gradient(135deg, #FF2D78, #FF6B9D)",
                 color: "#fff",
@@ -373,8 +375,9 @@ const Index = () => {
                 boxShadow: "0 0 30px rgba(255,45,120,0.35)",
               }}
             >
+              <Icon name="Phone" size={14} />
               Записаться на приём
-            </button>
+            </a>
           </div>
         </div>
       </section>
